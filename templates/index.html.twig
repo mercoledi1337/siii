@@ -1,5 +1,8 @@
-{% if title %}
-    <p>{{title}} is a movie</p>
-{% else %}
-    <p>Whoops, no title bebe.</p>
-{% endif %}
+{% extends "base.html.twig" %}
+
+
+{% block body %}
+
+    {{ author }}
+
+{% endblock %}
